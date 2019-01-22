@@ -60,6 +60,7 @@ public class Test {
     public void printArray(int[] a,int num) {
         for (int i : a) {
             System.out.print(i+1+",");
+
         }
         System.out.println();
     }
