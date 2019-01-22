@@ -12,7 +12,7 @@ public class Test {
         int[][] map = new int[num][num];
         int count = 0;
         int[] a = new int[num];
-        boolean flag = false;
+        boolean flag;
         for(int i = 0 ; i < num ; i++) {
             flag = false;
             for(int j = 0; j < num; j++) {
